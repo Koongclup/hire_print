@@ -1,0 +1,22 @@
+ 
+ <?php
+                    require_once 'connection.php';
+                    $stmt = $conn->prepare("SELECT * FROM user_group");
+                    $stmt->execute();
+                    $result = $stmt->fetchAll();
+                    $i = 1;
+                    foreach ($result as $r) {
+                    ?>
+                        <tr>
+                            <td><?= $i ?></td>
+                            <td><?= $r['fullname'] ?></td>
+                            <td><?= $r['position'] ?></td>
+                            <td><?= $r['start_date'] ?></td>
+                            <td><?= $r['cid'] ?></td>
+                            <td><?= $r['paypost'] ?></td>
+                            <td>
+                                <a href="personid.php?no=<?= $r['id'] ?>" class="btn btn-sm btn-light shadow-sm">แก้ไข</a>
+                            </td>
+                        </tr>
+                    <?php $i++;
+                    } ?> 

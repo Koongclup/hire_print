@@ -1,0 +1,26 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Chewy&family=Chicle&family=Kanit:wght@400;600&family=Lobster&family=Permanent+Marker&family=Rock+3D&family=Rubik+Wet+Paint&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+body {
+    font-family: 'Kanit', sans-serif;
+}
+ 
+.navbar-brand {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: rgba(180, 190, 203, 0.4);
+}
+
+thead {
+    position: sticky;
+    top: 0px;
+
+}
+
