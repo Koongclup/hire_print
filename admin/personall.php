@@ -1,8 +1,7 @@
 <?php
 session_start();
 @ini_set('display_errors', '0');
-$conn = mysqli_connect("192.168.212.50", "sa", "7188455", "db_employee");
-$conn->set_charset("utf8");
+include  '../inc/config/dbcon.php';
 $no = $_GET['no']; $isdate = $_GET['b'];
 
 //กำหนด charset ให้เป็น utf8 เพื่อรองรับภาษาไทย
