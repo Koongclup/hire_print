@@ -2,14 +2,7 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
-
-$host = "192.168.212.50";
-$username = "sa";
-$password = "7188455";
-$database = "db_employee";
-
-// Create a connection
-$conn = new mysqli($host, $username, $password, $database);
+include '../config/dbcon.php'
 $conn->set_charset("utf8");
 // Check connection
 if ($conn->connect_error) {
