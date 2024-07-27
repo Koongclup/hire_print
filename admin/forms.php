@@ -1,7 +1,7 @@
 <?php
 session_start();
 @ini_set('display_errors', '0');
-$con = mysqli_connect("192.168.212.101", "sa", "7188455", "nhso_library");
+$con = mysqli_connect("", "", "", "nhso_library");
 $con->set_charset("utf8");
 
 //กำหนด charset ให้เป็น utf8 เพื่อรองรับภาษาไทย
