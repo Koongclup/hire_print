@@ -13,11 +13,7 @@ edit
 before 
 ![ภาพ](https://github.com/user-attachments/assets/1aabf966-b50a-43e7-ac82-1b1109cc6243)
 
-print 1
-![ภาพ](https://github.com/user-attachments/assets/4a188141-b37e-4790-a65a-8124fe8ab0db)
 
-print2
-![ภาพ](https://github.com/user-attachments/assets/907ab071-8a70-4d11-acd6-e9e673c450c2)
 
 
 
